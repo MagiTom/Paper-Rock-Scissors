@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    min-width: 980px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player {
+    text-align: center;
+}
+
+.user-choose {
+    padding: 20px;
+}
+
+.game {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-user {
+    font-size: 60px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.display-no {
+    display: none;
+}
+
+.green {
+    color: green;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+}
